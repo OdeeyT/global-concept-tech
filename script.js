@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #00008B; /* Deep blue background */
+    background-color: #0000FF; /* Blue background */
     color: white; /* White text color */
+    text-align: center; /* Center all text */
 }
 
 header {
-    text-align: center;
     padding: 20px;
     background-color: #000066; /* Darker blue for header */
 }
@@ -23,16 +23,16 @@ h1 {
 
 main {
     padding: 20px;
-    text-align: center;
 }
 
 .content {
-    background-color: #0000A0; /* Different blue for content section */
+    background-color: #1E90FF; /* Different blue for content section */
     padding: 20px;
     border-radius: 10px;
     display: inline-block;
     max-width: 600px;
     margin: 0 auto;
+    text-align: center; /* Center text in content */
 }
 
 .camera-image img {
@@ -52,3 +52,4 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
